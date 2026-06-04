@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ansible
+*.retry
+.vault_pass
+
+# Editor temp files
+*.swp
+*.swo
+*~
+
+# Credentials — never commit passwords
+*credentials*
+*passwords*
+*secrets*
